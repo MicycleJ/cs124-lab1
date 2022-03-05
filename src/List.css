@@ -1,0 +1,40 @@
+#List {
+    font-size: 120%;
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+}
+
+#List ul li {
+    margin: 10pt 0;
+    width: fit-content;
+    list-style-type: none;
+}
+
+#List ul {
+    list-style-type: none;
+}
+
+.empty {
+    color: #8ab28a;
+    list-style-type: circle;
+}
+
+.empty div{
+    width: 125px;
+}
+
+/*#8ab28a different color option for button*/
+.empty button {
+    font-size: 15pt;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    padding-bottom: 0;
+    padding-top: 0;
+    background: #d1f5d3;
+
+}
+
+.empty button:hover {
+    color: #8ab28a;
+}

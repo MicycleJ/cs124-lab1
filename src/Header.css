@@ -1,0 +1,32 @@
+
+
+#Header {
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 1;
+    display: grid;
+    grid-template-columns: 210pt auto;
+    grid-template-rows: auto;
+}
+
+h1 {
+    grid-column: 1/ span 1;
+    font-size: 22pt;
+    padding-left: 10%;
+    text-align: left;
+}
+
+#Header h1 input {
+    font-size: 22pt;
+    width: 90%;
+    font-weight: bold;
+    height: auto;
+    color: darkgreen;
+    background-color: #d1f5d3;
+    font-family: "Century Gothic",sans-serif;
+    border: none;
+}
+
+#Header input:focus {
+    background-color: #a1d2a1;
+    outline: none;
+}
